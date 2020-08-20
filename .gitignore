@@ -1,0 +1,224 @@
+# https://www.gitignore.io/api/flask,venv,visualstudiocode,jetbrains+all에 의해 생성됨
+# https://www.gitignore.io/?templates=flask,venv,visualstudiocode,jetbrains+all에서 편집
+
+### 플라스크 ###
+예/*
+! instance / .gitignore
+.webassets-cache
+
+### Flask.Python 스택 ###
+# 바이트 컴파일 / 최적화 / DLL 파일
+__pycache __ /
+* .py [cod]
+* $ py.class
+
+# C 확장
+*.그래서
+
+# 유통 / 포장
+.Python
+짓다/
+계란 개발 /
+dist /
+다운로드 /
+달걀/
+.달걀/
+lib /
+lib64 /
+부속/
+sdist /
+var /
+바퀴 /
+pip-wheel-metadata /
+공유 / python-wheels /
+* .egg-info /
+.installed.cfg
+*.계란
+명백한
+
+# PyInstaller
+# 일반적으로 이러한 파일은 템플릿에서 Python 스크립트로 작성됩니다.
+# PyInstaller가 exe를 빌드하기 전에 날짜 / 기타 정보를 삽입합니다.
+*.명백한
+*.투기
+
+# 설치 로그
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 단위 테스트 / 커버리지 보고서
+htmlcov /
+.tox /
+.nox /
+.적용 범위
+.적용 범위.*
+.은닉처
+nosetests.xml
+coverage.xml
+*.덮개
+.hypothesis /
+.pytest_cache /
+
+# 번역
+* .mo
+*.냄비
+
+# 긁힌 물건 :
+.scrapy
+
+# 스핑크스 문서
+docs / _build /
+
+# 파이 빌더
+표적/
+
+# pyenv
+.python- 버전
+
+# pipenv
+# pypa / pipenv # 598에 따르면 버전 제어에 Pipfile.lock을 포함하는 것이 좋습니다.
+# 그러나 협업의 경우 플랫폼 별 종속성 또는 종속성이있는 경우
+# 크로스 플랫폼 지원이없는 pipenv는 작동하지 않거나 작동하지 않는 종속성을 설치할 수 있습니다.
+# 필요한 모든 종속성을 설치합니다.
+# Pipfile.lock
+
+# 셀러리 비트 스케줄 파일
+셀러리 비트 일정
+
+# SageMath 구문 분석 된 파일
+* .sage.py
+
+# 스파이더 프로젝트 설정
+.spyderproject
+.spyproject
+
+# 로프 프로젝트 설정
+.ropeproject
+
+# 미스터 개발자
+.mr.developer.cfg
+.계획
+.pydevproject
+
+# mkdocs 문서
+/대지
+
+# mypy
+.mypy_cache /
+.dmypy.json
+dmypy.json
+
+# Pyre 유형 검사기
+.pyre /
+
+### JetBrains + all ###
+# JetBrains IDE 포함 : IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio 및 WebStorm
+# 참조 : https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# 사용자 별 항목
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / ** / usage.statistics.xml
+.idea / ** / dictionaries
+.idea / ** / shelf
+
+# 생성 된 파일
+.idea / ** / contentModel.xml
+
+# 민감하거나 변동이 심한 파일
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
+
+# Gradle
+.idea / ** / gradle.xml
+.idea / ** / libraries
+
+# 자동 가져 오기 기능이있는 Gradle 및 Maven
+# 자동 가져 오기와 함께 Gradle 또는 Maven을 사용하는 경우 모듈 파일을 제외해야합니다.
+# 다시 생성되어 이탈을 일으킬 수 있기 때문입니다. 사용하는 경우 주석 해제
+# 자동 가져 오기.
+# .idea / modules.xml
+# .idea / *. iml
+# .idea / modules
+# * .iml
+# * .ipr
+
+# CMake
+cmake-build-* /
+
+# Mongo Explorer 플러그인
+.idea / ** / mongoSettings.xml
+
+# 파일 기반 프로젝트 형식
+* .iws
+
+# IntelliJ
+밖/
+
+# mpeltonen / sbt-idea 플러그인
+.idea_modules /
+
+# JIRA 플러그인
+atlassian-ide-plugin.xml
+
+# Cursive Clojure 플러그인
+.idea / replstate.xml
+
+# Crashlytics 플러그인 (Android Studio 및 IntelliJ 용)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# 편집기 기반 Rest 클라이언트
+.idea / httpRequests
+
+# Android 스튜디오 3.1+ 직렬화 된 캐시 파일
+.idea / caches / build_file_checksums.ser
+
+### JetBrains + all 패치 ###
+# 전체 .idea 폴더와 모든 .iml 파일을 무시합니다.
+# https://github.com/joeblau/gitignore.io/issues/186 및 https://github.com/joeblau/gitignore.io/issues/360 참조
+
+.생각/
+
+# 이유 : https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+
+* .iml
+modules.xml
+.idea / misc.xml
+* .ipr
+
+# Sonarlint 플러그인
+.idea / sonarlint
+
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+pyvenv.cfg
+.env
+.venv
+env /
+venv /
+ENV /
+env.bak /
+venv.bak /
+pip-selfcheck.json
+
+### VisualStudioCode ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+
+### VisualStudioCode 패치 ###
+# 파일의 모든 로컬 기록 무시
+.역사
+
+# https://www.gitignore.io/api/flask,venv,visualstudiocode,jetbrains+all의 끝
